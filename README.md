@@ -3,7 +3,7 @@
 A production-grade e-commerce application built with the MERN stack, featuring secure authentication, real-time cart, payments, and a full admin dashboard.
 
 ## 🚀 Live Demo
-> _Add your deployment URL here_
+> 
 
 ## ✨ Features
 
