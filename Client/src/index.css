@@ -1,0 +1,317 @@
+@import "tailwindcss";
+
+:root{
+  --primary-color: #e06213;
+}
+.text-primary{
+  color: var(--primary-color) !important;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+  background: #e06213;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d45608;
+}
+.css-ta231y-MuiBadge-badge {
+  background: #e06213 !important;
+}
+.btn-primary {
+  background: #e06213 !important;
+  color: #fff !important;
+  padding: 5px 10px !important;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all ease-in-out;
+  cursor: pointer;
+  border: 1px solid #e06213 !important;
+}
+.btn-primary:hover {
+  background: #bb4b06 !important;
+}
+.btn-secondary {
+  background: #fff;
+  color: #e06213 !important;
+  padding: 5px 10px !important;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all ease-in-out;
+  cursor: pointer;
+  border: 1px solid #e06213 !important;
+}
+.btn-secondary:hover {
+  background: #bb4b06 !important;
+  color: #fff !important;
+}
+input[type="checkbox"] {
+  accent-color: #e06213;
+}
+.filter-list-box {
+  transition: height 200ms;
+}
+.filter-list-box::-webkit-scrollbar {
+  width: 6px;
+}
+.filter-list-box::-webkit-scrollbar-track {
+  background: #ddd;
+}
+.filter-list-box::-webkit-scrollbar-thumb {
+  background: #e06213;
+}
+.filter-list-box::-webkit-scrollbar-thumb:hover {
+  background: #d45608;
+}
+.css-rizt0-MuiTypography-root {
+    font-size: 14px !important;
+}
+.css-120dh41-MuiSvgIcon-root {
+    fill: var(--primary-color) !important;
+}
+
+/* .card_swiper .card .img-container img:last-child {
+    display: none;
+}
+.card_swiper .card:hover .img-container img:first-child {
+    display: none;
+    transition: all 0.5s;
+}
+.card_swiper .card:hover .img-container img:last-child {
+    display: inline-block;
+    transition: all 0.5s;
+} */
+.card_swiper .action_btns{
+    opacity: 0;
+    top: -150px;
+    transition: all 0.3s;
+}
+.card_swiper .action_btns svg{
+    background: #ffff;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+.card_swiper .card:hover .action_btns{
+    opacity: 1;
+    top: 10px;
+}
+.card_swiper .card:hover .action_btns svg:hover{
+    color: var(--primary-color);
+}
+.css-1l5xwdx-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+}
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}
+.range-slider .range-slider__thumb, .range-slider .range-slider__range{
+    background: var(--primary-color) !important;
+}
+.range-slider{
+    height: 5px !important;
+}
+.range-slider .range-slider__thumb {
+    width: 18px !important;
+    height: 18px !important;
+}
+.vertical-product-details{
+    height: 400px;
+}
+.vertical-product-details .swiper-slide{
+    height: auto !important;
+    margin-bottom: 10px !important;
+}
+.iiz__img {
+    height: 400px !important;    
+    object-position: top;
+    width: 100%;
+    object-fit: cover;
+}
+.iiz{
+    width: 100%;
+}
+.vertical-product-details .swiper-button-prev {
+    top: 0 !important;
+}
+.vertical-product-details .swiper-button-next {
+    bottom: 0 !important;
+}
+.vertical-product-details .swiper-button-next, .vertical-product-details .swiper-button-prev {
+    color: #e06213;
+    background: #ffffffe0;
+    width: 100%;
+    border-radius: 0;
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.MuiPopper-root.css-51we07-MuiPopper-root{
+  z-index: 10;
+}
+.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1gtchvp-MuiPaper-root{
+  border: 1px solid #dfdfdf;
+}
+.lazy-load-image-background{
+  width: 100%;
+}
+.css-1umw9bq-MuiSvgIcon-root{
+  fill: var(--primary-color) !important;
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(to right, #f6f7f8 8%, #e1e1e1 18%, #f6f7f8 33%);
+  background-size: 1000px 104px;
+  position: relative;
+  animation: loading 1.5s infinite linear;
+}
+
+.shimmer-img {
+  height: 180px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.shimmer-text {
+  height: 20px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.shimmer-button {
+  width: 50%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.card_swiper .swiper-slide {
+  transition: all 0.4s ease;
+  transform: scale(0.9);
+  opacity: 0.6;
+}
+
+.card_swiper .swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 10;
+}
+
+.card_swiper .swiper-slide-prev,
+.card_swiper .swiper-slide-next {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+.card_swiper .swiper-slide {
+  transform: scale(1);
+  opacity: 1;
+}
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+.swiper-button-prev:active,
+.swiper-button-next:active {
+  transform: scale(1.1);
+}
+.product-image-wrapper .lazy-load-image-background {
+  width: auto !important;
+}
+@keyframes toastIn {
+  0% {
+    opacity: 0;
+    transform:
+      translateY(20px)
+      scale(0.85);
+    filter: blur(8px);
+  }
+
+  60% {
+    opacity: 1;
+    transform:
+      translateY(-2px)
+      scale(1.02);
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform:
+      translateY(0)
+      scale(1);
+    filter: blur(0px);
+  }
+}
+
+@keyframes toastOut {
+  0% {
+    opacity: 1;
+    transform:
+      scale(1);
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform:
+      scale(0.72);
+    filter: blur(10px);
+  }
+}
+/* ── Page Transition ─────────────────────────────────────────────────── */
+.page-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+
+/* ── Focus ring (accessibility) ─────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid #e06213;
+  outline-offset: 2px;
+}

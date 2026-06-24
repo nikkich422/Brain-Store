@@ -1,0 +1,17 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+:root {
+  --color-border-3: #e5e7eb;
+  --color-border-2: #d1d5db;
+
+  --color-text-3: #6b7280;
+
+  --color-surface-base: #ffffff;
+  --color-surface-raised: #f9fafb;
+
+  --color-chart-1: #6366f1;
+  --color-chart-2: #22c55e;
+}

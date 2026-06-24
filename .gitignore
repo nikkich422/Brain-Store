@@ -1,0 +1,14 @@
+node_modules
+.env
+
+Client/node_modules
+Server/node_modules
+
+dist
+build
+
+.vscode
+.DS_Store
+
+logs
+*.log
