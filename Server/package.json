@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node cluster.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
