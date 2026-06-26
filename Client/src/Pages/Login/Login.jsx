@@ -67,7 +67,7 @@ const Login = () => {
 
   return (
     <PageTransition>
-      <section className="min-h-[calc(100vh-160px)] bg-gradient-to-br from-orange-50 via-white to-amber-50 flex items-center justify-center py-10 px-4">
+      <section className="min-h-[calc(100vh-160px)] bg-linear-to-br from-orange-50 via-white to-amber-50 flex items-center justify-center py-10 px-4">
         <motion.div
           className="w-full max-w-md"
           initial={{ opacity: 0, y: 24 }}
@@ -170,7 +170,7 @@ const Login = () => {
             <button
               type="button"
               onClick={() => {
-                window.location.href = `${import.meta.env.VITE_API_URL || "http://localhost:8000"}/api/user/auth/google`;
+                window.location.href = `${import.meta.env.VITE_API_URL || "http://localhost:8000"}api/user/auth/google`;
               }}
               className="w-full py-3 border border-gray-200 rounded-xl flex items-center justify-center
                          gap-3 hover:bg-gray-50 active:scale-[0.98] transition-all font-medium text-gray-700"
