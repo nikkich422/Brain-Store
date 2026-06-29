@@ -12,6 +12,8 @@ export default function OAuthSuccess() {
   useEffect(() => {
     const token = params.get("token");
 
+    console.log("OAuth token:", token);
+
     if (token) {
       dispatch(setToken(token));
       navigate("/");
