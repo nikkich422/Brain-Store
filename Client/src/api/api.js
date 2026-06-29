@@ -7,7 +7,6 @@ export const injectStore = (_store) => {
   store = _store;
 };
 
-// ✅ FIX 1: No more hardcoded localhost — uses .env variable
 const API = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
   withCredentials: true,
